@@ -37,6 +37,6 @@
 	
 	echo "</table>"; // Fin de la tabla
 
-	// cerrar conexión a la base de datos
-	mysql_close( $conexion );
+	// cerrar conexión de base de datos
+	mysqli_close( $conexion );
 ?>
